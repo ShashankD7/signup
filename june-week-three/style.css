@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(52, 48, 48);
+    color: white;
+}
+
+
+nav {
+    width: 100vw;
+    height: 40px;
+    display: flex;
+    
+    align-items: center;
+    border-bottom: 0.2px solid lightgray;
+    background-color: black;
+}
+
+#nav-left {
+    width: 50vw;
+    margin-left: 70px;
+}
+
+#nav-right {
+    width: 50vw;
+    display: flex;
+    justify-content: end;
+    margin-right: 50px;
+}
+
+#nav-right h4 {
+    margin: 0 20px;
+}
+
+#center-div {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#center-div-innerHtml, #profile>#center-div>#center-div-inerHtml>#center {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 40vw;
+}
+
+#profile>#center-div>#center-div-inerHtml>#center p {
+    margin-bottom: 20px;
+    font-size: 18px;
+    border-bottom: 2px solid white;
+}
+
+#center-div-innerHtml .label-input {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    border-bottom: 2px solid white;
+}
+
+#center-div-innerHtml input {
+    background-color: rgb(52, 48, 48);
+    border: none;
+    box-shadow: none;
+    width: 29vw;
+    height: 30px;
+    outline: none;
+    background-color: transparent;
+    font-size: 18px;
+    color: white;
+    margin-left: 10px;
+}
+
+#center-div-innerHtml .msg-display {
+    height: 30px;
+}
+
+#center-div-innerHtml>#signupSection>#signupForm>button,
+#profile>#center-div>#center-div-inerHtml>#center>button {
+    height: 30px;
+    width: 10vw;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#successMessage, #errorMessage {
+    height: 30px;
+}
